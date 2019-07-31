@@ -1,10 +1,6 @@
 /* Custom SCSS */
-body {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
-  color: #5a5a5a;
-}
 
 @import "header";
 @import "products";
 @import "services";
+@import "responsive";

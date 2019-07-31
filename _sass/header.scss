@@ -1,4 +1,85 @@
 // Header SCSS
-.navbar-nav {
-  margin-left: 30%;
+.navbar {
+  height: 70px;
+  padding: 0; 
 }
+.navbar-brand {
+  height: inherit; 
+}
+.navbar-brand img {
+  height: 90%;
+  margin-left: 20%; 
+}
+.navbar-nav {
+  margin-left: 30%; 
+}
+.navbar-toggler {
+  margin-right: 10px; 
+}
+.navbar-collapse .navbar-nav a {
+  color: black;
+  font-size: 16px; 
+}
+.navbar-collapse .nav-item {
+  margin-right: 10px;
+}
+.navbar-collapse .nav-link {
+  padding: 5px;
+  font-weight: 500; 
+  text-transform: uppercase;
+}
+.navbar .dropdown {
+  margin-top: 3px; 
+}
+.navbar .dropdown .dropdown-menu {
+  width: 200px; 
+}
+.navbar .dropdown .dropdown-menu li:hover {
+  background: #eaeaea; 
+}
+.btn.active:focus {
+  box-shadow: none !important; 
+}
+
+// Banner
+.main-banner {
+  background: #07125f;
+}
+.style-banner {
+  padding: 15em 6em 2em;
+}
+.style-banner p {
+  font-size: 16px;
+  color: #b5b4b4;
+  letter-spacing: 3px;
+}
+.main-banner h4 {
+  color: #fbfbfb;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 3px;
+  text-shadow: 2px 1px 15px #212121;
+}
+.main-banner h3 {
+  color: #fbfbfb;
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 6px;
+}
+.left-banner {
+  background: url($baseurl + "/assets/img/nicbanner.jpg") no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  border-radius: 500px 0 0 500px;
+}
+.highlight {
+  color: #d33824;
+  font-size: 1.5em;
+
+  span.typed {
+    font-weight: bold;
+    color: #fff !important;
+  }
+}
+

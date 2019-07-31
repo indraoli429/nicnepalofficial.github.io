@@ -1,13 +1,10 @@
-title: Agency Starter Template
-email: your-email@example.com
+title: NIC Nepal
+email: nicnepal.mahabir@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a starter template for Agency theme
+  It is a non-profit organisation and is incorporated on the 9th day of November, 2012 pursuant to sub-section (1) of section 5 of the Companies Act, 2006. 
+  Its registered address is at Shivabhakta Marg, 304, Lazimpat, Kathmandu Nepal. NIC Research and Development facility is located at Kirtipur, Kathmandu in the premises of Tribhuwan University.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# change the default sass folder
 
 # Build settings
 markdown: kramdown
