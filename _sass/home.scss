@@ -56,7 +56,7 @@
 .main-banner h4 {
   color: #fbfbfb;
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 800;
   line-height: 56px;
   letter-spacing: 3px;
   text-shadow: 2px 1px 15px #212121;
@@ -65,7 +65,6 @@
   color: #fbfbfb;
   font-size: 3em;
   font-weight: 600;
-  letter-spacing: 6px;
 }
 .left-banner {
   background: url($baseurl + "/assets/img/nicbanner.jpg") no-repeat;
@@ -76,10 +75,55 @@
 .highlight {
   color: #d33824;
   font-size: 1.5em;
+  font-family: 'Open sans', sans-serif;
+  font-weight: 800;
 
   span.typed {
-    font-weight: bold;
+    font-weight: normal;
     color: #fff !important;
   }
 }
 
+.semi-trans-bg {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+// Feature Content
+.ftco-section {
+  .img-volunteer {
+    background-image: url($baseurl + "/assets/img/about.jpg");
+    margin-top: -70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    .author {
+      color: #d33824;
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+  .bg-black {
+    background: #1e1e1e;
+  }
+  .text h2 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .about-text h2 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.1;
+    color: #fff;
+  }
+  .about-text p {
+    text-align: justify;
+  }
+  .caption.focussed {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 19px;
+  }
+}
