@@ -90,6 +90,16 @@
 }
 
 // Feature Content
+.btn-donate {
+  background: red;
+  border: transparent;
+  color: #fff;
+}
+.btn-donate:hover {
+  background: #d20000;
+  color: #fff;
+}
+
 .ftco-section {
   .img-volunteer {
     background-image: url($baseurl + "/assets/img/about.jpg");
