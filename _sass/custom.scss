@@ -9,6 +9,16 @@ body {
   color: #999999;
 }
 
+.btn-primary {
+  background: #07125f;
+  border: transparent;
+  font-size: 15px;
+  padding: 15px 25px;
+}
+.btn-primary:hover {
+  background: #0f209a;
+}
+
 @import "home";
 @import "products";
 @import "services";
