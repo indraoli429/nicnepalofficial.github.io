@@ -87,6 +87,19 @@
 
 .semi-trans-bg {
   background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.elevator-pitch {
+  h2 {
+    background: #eee;
+    margin-bottom: 0;
+    padding: 0.6em 0;
+    font-size: 3em;
+    font-weight: 900;
+    color: $color3;
+    letter-spacing: -1px;
+  }
 }
 
 // Feature Content
@@ -119,7 +132,7 @@
   }
   .text h2 {
     font-weight: 900;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.1;
     color: #fff;
   }
@@ -179,13 +192,34 @@
   z-index: -1;
 }
 
+// Mission vision values
+.mission-vision-values {
+  padding: 4em 1em;
+
+  .card {
+    border: transparent;
+    
+    .card-title .fas {
+      font-size: 2.5em;
+      color: $color2 !important;
+    }
+    .card-caption {
+      color: #111;
+      font-size: 1em;
+      font-weight: 800;
+    }
+    .card-text {
+      color: $color3;
+      font-size: 18px;
+    }
+  }
+}
 
 // Footer
 .footer {
   position: relative;
   background: #1e2129;
 }
-
 .footer-content {
   position: relative;
   padding: 85px 0px 80px 0px;
@@ -197,52 +231,41 @@
   width: 744px;
   height: 365px;
   top: 50px;
-  right: 0px;
+  right: 15%;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.footer-content .logo-widget{
-  position: relative;
-  margin-top: -5px;
-}
-.footer-content .logo-widget .footer-social li{
+.footer-content .contact-widget .footer-social li {
   position: relative;
   display: inline-block;
   margin-right: 9px;
 }
-.footer-content .logo-widget .footer-social li:last-child{
+.footer-content .contact-widget .footer-social li:last-child{
   margin-right: 0px;
 }
-.footer-content .logo-widget .footer-social li a{
+.footer-content .contact-widget .footer-social li a {
   position: relative;
   display: inline-block;
   width: 42px;
   height: 42px;
   line-height: 42px;
-  background: #2e3138;
-  color: #9ea0a9;
+  color: #fff;
   text-align: center;
-  border-radius: 50%;
 }
-.footer-content .logo-widget .footer-social li a:hover{
-  color: #ffffff;
-  background: $color1;
-}
-.footer-content .logo-widget .logo-box{
+.footer-content .contact-widget .logo-box{
   margin-bottom: 25px;
 }
-.footer-content .logo-widget .text p{
+.footer-content .contact-widget .text p{
   color: #9ea0a9;
-  margin-bottom: 32px;
+  margin-bottom: 15px;
 }
 .footer-content .footer-title{
   position: relative;
-  font-size: 24px;
-  line-height: 35px;
-  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 30px;
   color: #ffffff;
   font-weight: 700;
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 .footer-content .service-widget .list li{
   display: block;
@@ -255,20 +278,29 @@
 }
 .footer-content .service-widget .list li a:hover{
   color: $color1;
+  text-decoration: none;
 }
 .footer-content .contact-widget p{
   color: #9ea0a9;
   margin-bottom: 15px;
 }
-.footer-content .contact-widget{
-  margin-left: 90px;
-}
 .footer-content .contact-widget .footer-title{
   margin-bottom: 29px;
 }
+.contact-widget .text p {
+  i {
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+  span {
+    display: block;
+    margin-left: 25px;
+  }
+}
 
 /** footer-bottom **/
-
 .footer-bottom{
   position: relative;
   background: #13151a;
@@ -307,27 +339,4 @@
 }
 .footer-bottom .footer-nav li:first-child:before{
   display: none;
-}
-
-// Mission vision values
-.mission-vision-values {
-  padding: 4em 1em;
-
-  .card {
-    border: transparent;
-    
-    .card-title .fas {
-      font-size: 2.5em;
-      color: $color2 !important;
-    }
-    .card-caption {
-      color: #111;
-      font-size: 1em;
-      font-weight: 800;
-    }
-    .card-text {
-      color: #0f209a;
-      font-size: 18px;
-    }
-  }
 }

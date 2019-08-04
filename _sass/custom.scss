@@ -1,4 +1,7 @@
 /* Custom SCSS */
+$color1: #ff5e14;
+$color2: #ff0800;
+$color3: #0f209a;
 
 body {
   font-family: "Nunito Sans", Arial, sans-serif;
@@ -10,7 +13,7 @@ body {
 }
 
 .btn-primary {
-  background: #0f209a;
+  background: $color3;
   border: transparent;
   font-size: 15px;
   padding: 15px 25px;
@@ -19,8 +22,18 @@ body {
   background: #07125f;
 }
 
-$color1: #ff5e14;
-$color2: #ff0800;
+.fa-twitter {
+  color: #38A1F3;
+}
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-github {
+  color: #ccc;
+}
+.fa-linkedin-in {
+  color: #0077B5;
+}
 
 @import "animate.min";
 @import "home";

@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+  .ftco-section .about-text h2, .ftco-section .text h2 {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -35,19 +38,29 @@
       color: #fff !important;
     }
   }
+  .footer-content:before {
+    right: 0;
+  }
 }
 
 @media (max-width: 550px) {
   .style-banner {
-    padding: 4em 2em;
+    padding: 4em 1em;
   }
   .left-banner {
     border-radius: 0px;
-    min-height: 300px;
+    min-height: 450px;
     background: url($baseurl + "/assets/img/nicbanner-sm.jpg") no-repeat;
     background-size: cover;
   }
   .navbar-collapse {
     padding: 1em 0;
+  }
+  .footer-content:before {
+    top: 45%;
+    right: 0;
+  }
+  .elevator-pitch h2 {
+    font-size: 2.5em;
   }
 }
