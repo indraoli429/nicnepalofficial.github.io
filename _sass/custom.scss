@@ -19,6 +19,10 @@ body {
   background: #07125f;
 }
 
+$color1: #ff5e14;
+$color2: #ff0800;
+
+@import "animate.min";
 @import "home";
 @import "products";
 @import "services";
