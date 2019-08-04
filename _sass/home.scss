@@ -94,7 +94,7 @@
   h2 {
     background: #eee;
     margin-bottom: 0;
-    padding: 0.6em 0;
+    padding: 1em 0;
     font-size: 3em;
     font-weight: 900;
     color: $color3;
@@ -304,39 +304,11 @@
 .footer-bottom{
   position: relative;
   background: #13151a;
-  padding: 25px 0px 22px 0px;
+  padding: 10px 0;
 }
 .footer-bottom .copyright,
 .footer-bottom .copyright a,
-.footer-bottom .footer-nav li a{
+.footer-bottom .footer-nav li a {
   position: relative;
-  color: #9ea0a9;
-}
-.footer-bottom .copyright a:hover,
-.footer-bottom .footer-nav li a:hover{
-  color: $color1;
-}
-.footer-bottom .footer-nav{
-  position: relative;
-  text-align: right;
-}
-.footer-bottom .footer-nav li{
-  position: relative;
-  display: inline-block;
-  margin-left: 29px;
-}
-.footer-bottom .footer-nav li:first-child{
-  margin-left: 0px;
-}
-.footer-bottom .footer-nav li:before{
-  position: absolute;
-  content: '';
-  background: #9ea0a9;
-  width: 1px;
-  height: 14px;
-  top: 7px;
-  left: -18px;
-}
-.footer-bottom .footer-nav li:first-child:before{
-  display: none;
+  color: #ccc;
 }
