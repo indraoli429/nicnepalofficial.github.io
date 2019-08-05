@@ -161,7 +161,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
+  padding: 4em 0 2em 0;
 
   img {
     border: 3px solid #fff;
@@ -194,22 +194,26 @@
 
 // Mission vision values
 .mission-vision-values {
-  padding: 4em 1em;
-
+  hr {
+    border: 1px solid #28a745;
+    width: 50%;
+  }
   .card {
     border: transparent;
+    background: transparent;
     
     .card-title .fas {
       font-size: 2.5em;
       color: $color2 !important;
     }
     .card-caption {
-      color: #111;
+      color: #bbb;
       font-size: 1em;
       font-weight: 800;
     }
     .card-text {
-      color: $color3;
+      // color: $color3;
+      color: #fff;
       font-size: 18px;
     }
   }
