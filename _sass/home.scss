@@ -94,7 +94,7 @@
   h2 {
     background: #eee;
     margin-bottom: 0;
-    padding: 1em 0;
+    padding: 1.5em 0;
     font-size: 3em;
     font-weight: 900;
     color: $color3;
@@ -203,7 +203,7 @@
     background: transparent;
     
     .card-title .fas {
-      font-size: 2.5em;
+      font-size: 2em;
       color: $color2 !important;
     }
     .card-caption {
@@ -216,6 +216,80 @@
       color: #fff;
       font-size: 18px;
     }
+  }
+}
+
+/**************** project highlights */
+.project-highlights {
+  padding: 4em 0;
+
+  .project-title {
+    color: $color3;
+    font-size: 2.5em;
+    font-weight: 800;
+  }
+
+  .card {
+    border: 0px solid transparent;
+  }
+
+  .view-more {
+    display: flex;
+    justify-content: center;
+  }
+
+  .single-project-box {
+    background-color: #fafafa;
+    border-radius: 50px 0 50px 0;
+    
+    a {
+      text-decoration: none;
+    }
+
+    .card-img-top {
+      border-radius: 0px;
+    }
+
+    .card {
+      background-color: transparent;
+      position: relative;
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      .read-more {
+        color: red;
+      }
+
+      img {
+        height: 200px;
+        border-top-left-radius: 50px;
+        box-shadow: 4px 5px 30px rgba(black,.20);
+      }
+      
+      .card-body {
+        padding: 10px;
+        box-shadow: 4px 5px 30px rgba(black,.20);
+        border-radius: 0 0 50px 0;
+        
+        .proj-desc {
+          color: #555;
+        }
+        .card-title {
+          color: $color1;
+          text-transform: capitalize;
+        }
+        .extra-line {
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  .card-title{
+    margin-bottom: 0;
   }
 }
 
