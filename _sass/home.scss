@@ -1,7 +1,8 @@
 // Header SCSS
 .navbar {
-  height: 80px;
+  height: 70px;
   padding: 0; 
+  background: #fff;
 }
 .navbar-brand {
   height: inherit; 
@@ -45,6 +46,7 @@
 // Banner
 .main-banner {
   background: #07125f;
+  margin-top: 4em;
 }
 .style-banner {
   padding: 15em 6em 2em;
