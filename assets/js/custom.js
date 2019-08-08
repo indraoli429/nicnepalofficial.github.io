@@ -9,15 +9,26 @@ $(function(){
   });
 
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
-  $('#donation-amount').animateNumber(
+  $('#nurturing-projects').animateNumber(
     {
-      number: 71154825,
+      number: 21,
       color: '#d33824',
       numberStep: comma_separator_number_step
     },
     {
       easing: 'swing',
       duration: 1500
+    }
+  )
+  $('#nearly-complete-projects').animateNumber(
+    {
+      number: 5,
+      color: '#d33824',
+      numberStep: comma_separator_number_step
+    },
+    {
+      easing: 'swing',
+      duration: 1000
     }
   )
 });

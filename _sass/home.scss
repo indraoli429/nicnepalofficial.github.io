@@ -114,9 +114,11 @@
 }
 
 .ftco-section {
+  .quick-stats {
+    margin-top: -70px;
+  }
   .img-volunteer {
     background-image: url($baseurl + "/assets/img/about.jpg");
-    margin-top: -70px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -124,7 +126,7 @@
     .author {
       color: #d33824;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 18px;
     }
   }
   .bg-black {
@@ -141,6 +143,11 @@
     font-size: 50px;
     line-height: 1.1;
     color: #fff;
+  }
+  .about-text h4 {
+    color: #bbb;
+    font-weight: 600;
+    font-size: 30px;
   }
   .about-text p {
     text-align: justify;
