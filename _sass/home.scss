@@ -3,6 +3,7 @@
   height: 70px;
   padding: 0; 
   background: #fff;
+  box-shadow: 4px 5px 30px rgba(0,0,0,0.8);
 }
 .navbar-brand {
   height: inherit; 
@@ -102,6 +103,13 @@
     color: $color3;
     letter-spacing: -1px;
   }
+}
+
+.section-title {
+  color: $color3;
+  font-size: 3em;
+  font-weight: 800;
+  text-align: center;
 }
 
 // Feature Content
@@ -232,12 +240,6 @@
 .project-highlights {
   padding: 4em 0;
 
-  .project-title {
-    color: $color3;
-    font-size: 2.5em;
-    font-weight: 800;
-  }
-
   .card {
     border: 0px solid transparent;
   }
@@ -301,6 +303,63 @@
     margin-bottom: 0;
   }
 }
+
+// Incubation and Our Support
+.incubation-and-our-support {
+  background: #edf7ff;
+
+  .quotetext {
+    font-family: "Open-sans", sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+
+  .incubation-process {
+    position: relative;
+    background: url(../assets/img/funnel-bg-trans.png) no-repeat;
+    background-size: contain;
+    height: 450px;
+  }
+
+  .tab-content {
+    .tab-pane {
+      padding: 3em 4em;
+    }
+    .fas {
+      color: #48a845;
+      font-size: 5em;
+      border-radius: 50%;
+      border: 1px solid #fafafa;
+      padding: 20px;
+      background: #fafafa;
+      box-shadow: 4px 5px 30px rgba(0,0,0,0.2);
+    }
+    .support-caption {
+      color: #555;
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+  }
+  .nav-tabs {
+    border-bottom: none;
+  }
+  .nav-tabs .nav-link {
+    color: #0f209a;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: #edf7ff #edf7ff #edf7ff;
+    color: #fff;
+  }
+  .nav-tabs .nav-link.active {
+    background: #ff0800;
+  }
+  .nav-tabs .nav-link:hover {
+    background: #ff6f6a;
+    color: #fff;
+  }
+}
+
+
 
 // Footer
 .footer {

@@ -35,6 +35,37 @@ body {
   color: #0077B5;
 }
 
+.p-6 {
+  padding: 4em;
+}
+.p-x-6 {
+  padding: 0 4em;
+}
+.p-y-6 {
+  padding: 4em 0;
+}
+.pt-6 {
+  padding-top: 4em;
+}
+.pb-6 {
+  padding-bottom: 4em;
+}
+.p-7 {
+  padding: 5em;
+}
+.p-x-7 {
+  padding: 0 5em;
+}
+.p-y-7 {
+  padding: 5em 0;
+}
+.pt-7 {
+  padding-top: 5em;
+}
+.pb-7 {
+  padding-bottom: 5em;
+}
+
 @import "animate.min";
 @import "home";
 @import "products";

@@ -44,6 +44,14 @@
   .elevator-pitch h2 {
     font-size: 2.2em;
   }
+  .incubation-and-our-support .tab-content {
+    .tab-pane {
+      padding: 3em 2em 1em;
+    }
+    .support-caption {
+      font-size: 1.2em;
+    }
+  }
 }
 
 @media (max-width: 550px) {
