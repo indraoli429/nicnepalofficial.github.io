@@ -50,6 +50,16 @@
     }
     .support-caption {
       font-size: 1.2em;
+      padding: 0;
+    }
+  }
+  .how-to-support {
+    .support-box {
+      padding: 0 1em;
+
+      .caption {
+        line-height: 20px;
+      }
     }
   }
 }
