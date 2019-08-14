@@ -92,6 +92,10 @@
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
 }
+.view-more {
+  display: flex;
+  justify-content: center;
+}
 
 .elevator-pitch {
   h2 {
@@ -244,10 +248,7 @@
     border: 0px solid transparent;
   }
 
-  .view-more {
-    display: flex;
-    justify-content: center;
-  }
+
 
   .single-project-box {
     background-color: #fafafa;
@@ -473,4 +474,32 @@
     font-size: 3em;
     color: #48a845;
   }
+}
+
+
+// Gallery
+.gallery-trailer {
+  background: #ccc;
+}
+.gallery img {
+  max-width: 100%;
+	width: 100%;
+	height: auto;
+  display: block;
+  box-shadow: 4px 5px 30px rgba(0,0,0,0.8);
+	-webkit-transition: -webkit-transform .35s ease;
+	-moz-transition: -moz-transform .35s ease;
+	-o-transition: -o-transform .35s ease;
+	-ms-transition: -ms-transform .35s ease;
+	transition: transform .35s ease;
+}
+.gallery a {
+  overflow: hidden;
+}
+.gallery a:hover img {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
 }

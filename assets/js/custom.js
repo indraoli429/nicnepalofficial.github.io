@@ -1,12 +1,14 @@
 /*Custom JavaScript*/
 
 $(function(){
-  var typed = new Typed(".typed", {
-    strings: ["is with you.", "goal is to develop Nepal economically."],
-    typeSpeed: 40,
-    startDelay: 500,
-    backSpeed: 50
-  });
+  if (location.pathname == "/") {
+    var typed = new Typed(".typed", {
+      strings: ["is with you.", "goal is to develop Nepal economically."],
+      typeSpeed: 40,
+      startDelay: 500,
+      backSpeed: 50
+    });
+  }
 
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
   $('#nurturing-projects').animateNumber(
@@ -31,5 +33,9 @@ $(function(){
       duration: 1000
     }
   )
+
+  if (location.pathname == "/" || location.pathname == "/gallery/") {
+    $('.gallery a').simpleLightbox();
+  } 
 });
 
