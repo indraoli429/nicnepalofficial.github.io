@@ -69,7 +69,7 @@
 }
 .main-banner h4 {
   color: #fbfbfb;
-  font-size: 3em;
+  font-size: 2.2em;
   font-weight: 800;
   line-height: 56px;
   letter-spacing: 3px;
@@ -77,18 +77,18 @@
 }
 .main-banner h3 {
   color: #fbfbfb;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 600;
 }
 .banner-img {
   background: url($baseurl + "/assets/img/nicbanner.jpg") no-repeat;
   background-size: cover;
-  min-height: 400px;
+  min-height: 500px;
   border-radius: 500px 0 0 500px;
 }
 .highlight {
   color: #d33824;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: 'Open sans', sans-serif;
   font-weight: 800;
 
@@ -175,21 +175,21 @@
     background: #1e1e1e;
   }
   .text h2 {
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 35px;
     line-height: 1.1;
     color: #fff;
   }
   .about-text h2 {
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 800;
+    font-size: 35px;
     line-height: 1.1;
     color: #fff;
   }
   .about-text h4 {
     color: #bbb;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
   }
   .about-text p {
     text-align: justify;
