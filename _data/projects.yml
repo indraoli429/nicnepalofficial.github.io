@@ -4,7 +4,7 @@
     It is a non-cooling, non-chemical solution which is bound to increase the income of marginal farmers 
     and trader’s up-to 30%.
   img: sabji-kothi/1.jpg
-  url: sabji-kothi
+  url: sabji-kothi.html
 - name: Alternative Protein Source
   desc: | 
     A team of four students of Agriculture and Forestry University Chitwan with mentorship from a professor 
@@ -16,7 +16,7 @@
     Likewise, Poster presentation giving overview of research project was also done in International 
     Poultry Symposium 2018.
   img: alternative-protein/1.jpg
-  url: alternative-protein
+  url: alternative-protein.html
 - name: Medical Drone
   desc: |
     A team of ten engineers have been building and testing of medical drones (multi copter and fixed wing) 
@@ -28,7 +28,7 @@
     The next step will be to upgrade the drones and develop hybrid drone that can fly like helicopter and 
     fixed wing plane.
   img: medical-drone/1.jpg
-  url: medical-drone
+  url: medical-drone.html
 - name: Baby Incubator
   desc: |
     A team is developing incubator for rural clinics and hospitals. The prototype of the incubator has been 
@@ -36,4 +36,4 @@
     humidity and other parameters has been developed. The next step is to design the product for commercial 
     purpose, which will be affordable by rural clinics.
   img: baby-incubator/1.jpg
-  url: baby-incubator
+  url: baby-incubator.html
