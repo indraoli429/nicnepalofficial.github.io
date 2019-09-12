@@ -475,13 +475,18 @@
 .footer-bottom{
   position: relative;
   background: #13151a;
-  padding: 10px 0;
+  padding: 5px 0;
+
+  a {
+    color: #28a745 !important;
+  }
 }
 .footer-bottom .copyright,
-.footer-bottom .copyright a,
-.footer-bottom .footer-nav li a {
+.footer-bottom .copyright a {
   position: relative;
   color: #ccc;
+  font-size: 13px;
+  letter-spacing: 1px;
 }
 
 .how-to-support {

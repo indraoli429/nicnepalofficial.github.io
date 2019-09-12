@@ -19,7 +19,7 @@ page_name: projects
         <div class="single-project-box">
           <div class="card">
             <!-- <a href="/projects/{{ project.url }}"> -->
-            <a href="/projects/sabji-kothi">
+            <a href="/projects/{{ project.url }}">
               <img src="/assets/img/projects/{{ project.img }}" class="card-img-top" alt="blog">
               <div class="card-body">
                 <h6 class="card-title">{{ project.name }}</h6>
@@ -30,7 +30,7 @@ page_name: projects
                 <p class="proj-desc mb-0">
                   {{ project.desc | strip_html | truncate: 100 }}
                 </p>
-                <a href="/projects" class="read-more">Read More</a>
+                <a href="/projects/{{ project.url }}" class="read-more">Read More</a>
                 <!-- <div class="skill">
                     <h5 class="status">Status</h5>
                     <div class="skill-bar skill11 wow slideInLeft animated">
