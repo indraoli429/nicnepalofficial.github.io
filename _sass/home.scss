@@ -58,10 +58,10 @@
   letter-spacing: 3px;
 }
 .style-banner .sub-caption {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 .style-banner .nepali-caption {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 .main-banner h4 {
   color: #fbfbfb;
@@ -124,6 +124,11 @@
     font-weight: 900;
     color: $color3;
     letter-spacing: -1px;
+  }
+  .project-title {
+    padding: 0.8em 0;
+    font-size: 2.5em;
+    font-weight: 600;
   }
 }
 
