@@ -8,6 +8,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_analytics: UA-133657720-2
 
+include: ['_projects']
+
 # Build settings
 markdown: kramdown
 plugins:
