@@ -73,9 +73,14 @@ body {
   margin-top: 4em;
 }
 
+.orangered {
+  color: orangered !important;
+}
+
 @import "animate.min";
 @import "home";
 @import "blogs";
 @import "projects";
 @import "about";
+@import "donate";
 @import "responsive";
