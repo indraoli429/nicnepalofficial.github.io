@@ -66,13 +66,28 @@
 
 @media (max-width: 550px) {
   .style-banner {
-    padding: 4em 1em;
+    padding: 2em 1em;
   }
-  .left-banner {
-    border-radius: 0px;
-    min-height: 450px;
+  .style-banner .sub-caption {
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+  .style-banner .brand-abbr {
+    display: inline-block;
+  }
+  .style-banner .btn-story {
+    margin-top: 1em;
+  }
+  .style-banner .nepali-caption {
+    margin-bottom: 1.5em;
+  }
+  .main-banner h3 {
+    font-size: 2em;
+  }
+  .banner-img {
+    min-height: 400px;
     background: url($baseurl + "/assets/img/nicbanner-sm.jpg") no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
   .navbar-collapse {
     padding: 1em 0;

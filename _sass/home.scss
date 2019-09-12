@@ -50,12 +50,18 @@
   margin-top: 4em;
 }
 .style-banner {
-  padding: 10em 6em 2em;
+  padding: 5em 4em;
 }
 .style-banner p {
   font-size: 16px;
   color: #b5b4b4;
   letter-spacing: 3px;
+}
+.style-banner .sub-caption {
+  margin-bottom: 3em;
+}
+.style-banner .nepali-caption {
+  margin-bottom: 3em;
 }
 .main-banner h4 {
   color: #fbfbfb;
@@ -70,10 +76,10 @@
   font-size: 3em;
   font-weight: 600;
 }
-.left-banner {
+.banner-img {
   background: url($baseurl + "/assets/img/nicbanner.jpg") no-repeat;
   background-size: cover;
-  min-height: 750px;
+  min-height: 400px;
   border-radius: 500px 0 0 500px;
 }
 .highlight {
@@ -95,6 +101,18 @@
 .view-more {
   display: flex;
   justify-content: center;
+}
+
+.btn-story {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+
+  &:hover {
+    color: #111;
+    font-weight: bold;
+    background: #ccc;
+  }
 }
 
 .elevator-pitch {
@@ -178,32 +196,34 @@
 .why-nic-nepal {
   position: relative;
   z-index: 99;
-  background-image: url(../assets/img/doc-lab.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4em 0 2em 0;
 
   img {
-    border: 3px solid #fff;
     width: 100%;
     margin-top: 5%;
+    box-shadow: 1px 5px 30px #ccc;
   }
 
   .section-heading {
-    color: #fff;
+    color: #111;
+  }
+  .section-text {
+    color: #666;
   }
   .section-heading .highlight {
     color: #d33824;
   }
   .text-highlight {
     font-size: 1.2em;
-    color: #ccc;
+    color: $color3;
   }
 }
 .why-nic-nepal:after {
   content: "";
-  background-color: #1a1d29;
+  background-color: #f9f9f9;
   opacity: 0.8;
   position: absolute;
   left: 0;
@@ -228,22 +248,20 @@
       color: $color2 !important;
     }
     .card-caption {
-      color: #bbb;
-      font-size: 1em;
+      color: $color3;
+      font-size: 1.3em;
       font-weight: 800;
     }
     .card-text {
       // color: $color3;
-      color: #fff;
-      font-size: 18px;
+      color: #333;
+      font-size: 14px;
     }
   }
 }
 
 /**************** project highlights */
-.project-highlights {
-  padding: 4em 0;
-
+.project-highlights, .projects-section {
   .card {
     border: 0px solid transparent;
   }
@@ -313,7 +331,7 @@
 
 // Incubation and Our Support
 .incubation-and-our-support {
-  background: #edf7ff;
+  background: #f9f9f9;
 
   .incubation-process {
     position: relative;
@@ -479,7 +497,7 @@
 
 // Gallery
 .gallery-trailer {
-  background: #ccc;
+  background: #f9f9f9;
 }
 .gallery img {
   max-width: 100%;

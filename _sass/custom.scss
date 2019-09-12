@@ -42,10 +42,10 @@ body {
 .p-6 {
   padding: 4em;
 }
-.p-x-6 {
+.px-6 {
   padding: 0 4em;
 }
-.p-y-6 {
+.py-6 {
   padding: 4em 0;
 }
 .pt-6 {
@@ -57,10 +57,10 @@ body {
 .p-7 {
   padding: 5em;
 }
-.p-x-7 {
+.px-7 {
   padding: 0 5em;
 }
-.p-y-7 {
+.py-7 {
   padding: 5em 0;
 }
 .pt-7 {
@@ -72,6 +72,5 @@ body {
 
 @import "animate.min";
 @import "home";
-@import "products";
-@import "services";
+@import "projects";
 @import "responsive";
