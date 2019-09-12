@@ -108,6 +108,15 @@
   .single-project-box {
     margin-bottom: 1.5em;
   }
+  .contact-page .row, .contact-details.row .col-xs-12 {
+    padding: 0;
+  }
+  .ftco-section .about-text {
+    padding: 1.5em !important;
+  }
+  .section-title {
+    font-size: 2em;
+  }
 }
 
 @media(max-width: 360px) {

@@ -276,8 +276,6 @@
     border: 0px solid transparent;
   }
 
-
-
   .single-project-box {
     background-color: #fafafa;
     border-radius: 50px 0 50px 0;
@@ -331,6 +329,16 @@
   .card-title{
     margin-bottom: 0;
   }
+
+  .table thead th {
+    color: #333;
+    font-size: 20px;
+  }
+  .table td {
+    color: #666;
+    font-weight: normal;
+  }
+
 }
 
 .quotetext {
