@@ -5,6 +5,10 @@
   background: #fff;
   box-shadow: 4px 5px 30px rgba(0,0,0,0.8);
 }
+.navbar-nav .nav-item.active .nav-link {
+  color: #111;
+  font-weight: 800;
+}
 .navbar-brand {
   height: inherit; 
   padding-bottom: 0px;
@@ -190,9 +194,9 @@
     text-align: justify;
   }
   .caption.focussed {
-    color: #bbb;
+    color: #ddd;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 16px;
     text-align: justify;
   }
 }

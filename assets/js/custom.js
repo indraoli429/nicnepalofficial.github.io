@@ -1,14 +1,8 @@
 /*Custom JavaScript*/
 
 $(function(){
-  if (location.pathname == "/") {
-    var typed = new Typed(".typed", {
-      strings: ["is with you.", "goal is to develop Nepal economically."],
-      typeSpeed: 40,
-      startDelay: 500,
-      backSpeed: 50
-    });
-  }
+  // Activate wow.js
+  new WOW().init();
 
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
   $('#nurturing-projects').animateNumber(
@@ -37,5 +31,14 @@ $(function(){
   if (location.pathname == "/" || location.pathname == "/gallery/") {
     $('.gallery a').simpleLightbox();
   } 
+
+  if (location.pathname == "/") {
+    var typed = new Typed(".typed", {
+      strings: ["is with you.", "goal is to develop Nepal economically."],
+      typeSpeed: 40,
+      startDelay: 500,
+      backSpeed: 50
+    });
+  }
 });
 
