@@ -27,13 +27,13 @@
     It is hoped to implement the first drone for delivering medicine in January 2019 in Myagdi district. 
     The next step will be to upgrade the drones and develop hybrid drone that can fly like helicopter and 
     fixed wing plane.
-  img: medical_drone.jpg
-  url: medical_drone.html
+  img: medical-drone/1.jpg
+  url: medical-drone
 - name: Baby Incubator
   desc: |
     A team is developing incubator for rural clinics and hospitals. The prototype of the incubator has been 
     already developed in wooden box and electronic circuits for controlling and monitoring the temperature, 
     humidity and other parameters has been developed. The next step is to design the product for commercial 
     purpose, which will be affordable by rural clinics.
-  img: baby_incubator.jpg
-  url: baby_incubator.html
+  img: baby-incubator/1.jpg
+  url: baby-incubator
