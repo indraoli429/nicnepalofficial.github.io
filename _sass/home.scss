@@ -68,33 +68,31 @@
   margin-bottom: 1em;
 }
 .main-banner h4 {
-  color: #fbfbfb;
-  font-size: 2.2em;
+  color: #111;
+  font-size: 3em;
   font-weight: 800;
   line-height: 56px;
   letter-spacing: 3px;
-  text-shadow: 2px 1px 15px #212121;
 }
 .main-banner h3 {
-  color: #fbfbfb;
-  font-size: 2em;
+  color: #333;
+  font-size: 2.5em;
   font-weight: 600;
 }
-.banner-img {
+.main-banner {
   background: url($baseurl + "/assets/img/nicbanner.jpg") no-repeat;
   background-size: cover;
-  min-height: 500px;
-  border-radius: 500px 0 0 500px;
+  min-height: 750px;
 }
 .highlight {
-  color: #d33824;
-  font-size: 1.3em;
+  color: $color1;
+  font-size: 1.5em;
   font-family: 'Open sans', sans-serif;
   font-weight: 800;
 
   span.typed {
-    font-weight: normal;
-    color: #fff !important;
+    font-weight: bold;
+    color: $color3 !important;
   }
 }
 
@@ -108,9 +106,9 @@
 }
 
 .btn-story {
-  border: 1px solid #fff;
+  border: 2px solid $color3;
   border-radius: 30px;
-  color: #fff;
+  color: #111;
   margin-top: -10px;
 
   &:hover {
@@ -127,7 +125,7 @@
     padding: 1.5em 0;
     font-size: 3em;
     font-weight: 900;
-    color: $color3;
+    color: #333;
     letter-spacing: -1px;
   }
   .project-title {
@@ -138,7 +136,7 @@
 }
 
 .section-title {
-  color: $color3;
+  color: #111;
   font-size: 3em;
   font-weight: 800;
   text-align: center;
@@ -146,9 +144,9 @@
 
 // Feature Content
 .btn-donate {
-  background: red;
+  background: #fff;
   border: transparent;
-  color: #fff;
+  color: #111;
 }
 .btn-donate:hover {
   background: #d20000;
@@ -158,15 +156,27 @@
 .ftco-section {
   .quick-stats {
     margin-top: -70px;
+    background: #777;
+  }
+  #nurturing-projects {
+    color: #fff !important;
+    font-size: 50px;
+  }
+  #nearly-complete-projects {
+    color: #fff;
+    font-size: 30px;
   }
   .img-volunteer {
-    background-image: url($baseurl + "/assets/img/about.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+    background: #eee;
 
+    h2 {
+      color: #111 !important;
+    }
+    p {
+      color: #666 !important;
+    }
     .author {
-      color: #fff;
+      color: #333;
       font-weight: 600;
       font-size: 18px;
     }
@@ -187,12 +197,13 @@
     color: #fff;
   }
   .about-text h4 {
-    color: #bbb;
+    color: #ddd;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
   }
   .about-text p {
     text-align: justify;
+    color: #ccc;
   }
   .caption.focussed {
     color: #ddd;
@@ -219,12 +230,13 @@
 
   .section-heading {
     color: #111;
+    font-weight: 800;
   }
   .section-text {
     color: #666;
   }
   .section-heading .highlight {
-    color: #d33824;
+    color: $color1;
   }
   .text-highlight {
     font-size: 1.2em;
@@ -255,10 +267,10 @@
     
     .card-title .fas {
       font-size: 2em;
-      color: $color2 !important;
+      color: #48a845 !important;
     }
     .card-caption {
-      color: $color3;
+      color: #333;
       font-size: 1.3em;
       font-weight: 800;
     }
@@ -364,18 +376,14 @@
     }
     .fas {
       color: #48a845;
-      font-size: 5em;
-      border-radius: 50%;
-      border: 1px solid #fafafa;
-      padding: 20px;
+      font-size: 3.5em;
+      padding: 10px;
       background: #fafafa;
-      box-shadow: 4px 5px 30px rgba(0,0,0,0.2);
     }
     .support-caption {
-      color: #555;
-      font-size: 1.5em;
+      color: #999;
+      font-size: 1em;
       margin-top: 10px;
-      padding: 0 2em;
     }
   }
   .nav-tabs {
@@ -507,7 +515,7 @@
     padding: 0 3em;
   }
   .text-primary {
-    color: $color1 !important;
+    color: #333 !important;
     font-weight: 800;
     font-size: 1.5em;
   }
@@ -527,11 +535,8 @@
 	width: 100%;
 	height: auto;
   display: block;
-  box-shadow: 4px 5px 30px rgba(0,0,0,0.8);
-	-webkit-transition: -webkit-transform .35s ease;
-	-moz-transition: -moz-transform .35s ease;
-	-o-transition: -o-transform .35s ease;
-	-ms-transition: -ms-transform .35s ease;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 5px #ccc;
 	transition: transform .35s ease;
 }
 .gallery a {

@@ -2,9 +2,9 @@
   <h2 class="section-title text-center">Our Gallery</h2>
 
   <div class="container pt-3 pb-5">
-    <div class="row no-gutters gallery">
+    <div class="row gallery">
       {% for img_index in (1..6) %}
-      <div class="col-lg-4 col-md-3 col-xs-12">
+      <div class="col-lg-4 col-md-3 col-xs-12 mb-4">
         <a href="{{ site.url }}/assets/img/gallery/{{img_index}}.jpg">
           <img src="{{ site.url }}/assets/img/gallery/{{img_index}}.jpg" class="img-fluid" alt="" />
         </a>
@@ -12,7 +12,7 @@
       {% endfor %}
     </div>
     <div class="row mt-3 view-more">
-      <a href="/gallery" role="button" class="btn btn-success py-3 px-4">View All</a>
+      <a href="/gallery" role="button" class="btn btn-success py-2 px-5 rounded-0">View All</a>
     </div>
   </div>
 </section>

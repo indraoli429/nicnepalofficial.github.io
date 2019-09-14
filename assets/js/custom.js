@@ -8,7 +8,7 @@ $(function(){
   $('#nurturing-projects').animateNumber(
     {
       number: 21,
-      color: '#d33824',
+      color: '#fff',
       numberStep: comma_separator_number_step
     },
     {
@@ -19,7 +19,7 @@ $(function(){
   $('#nearly-complete-projects').animateNumber(
     {
       number: 5,
-      color: '#d33824',
+      color: '#ddd',
       numberStep: comma_separator_number_step
     },
     {

@@ -6,7 +6,16 @@ layout: default
   <div class="container mt-5">
     <!-- Wrapper Start -->
     <div class="row">
-      <div class="col-xs-12 col-md-12">
+      <div class="col-md-12 cover-image">
+        {% assign cover-img=page.cover-img %}
+        {% assign img-title=page.title %}
+        {% include image.html
+                            img=cover-img
+                            title=img-title
+                            class="full-width"
+                %}
+      </div>
+      <div class="col-xs-12 col-md-12 px-9">
         <h1 class="project-title">{{ page.title }}</h1>
         <div class="row project-info font-italic">
           <div class="col-md-6 col-sm-12 font-italic">
