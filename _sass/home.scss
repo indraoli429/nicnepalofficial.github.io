@@ -290,7 +290,6 @@
 
   .single-project-box {
     background-color: #fafafa;
-    border-radius: 50px 0 50px 0;
     
     a {
       text-decoration: none;
@@ -310,26 +309,29 @@
       }
 
       .read-more {
-        color: red;
+        color: $color4;
+        font-size: 15px;
       }
 
       img {
         height: 200px;
-        border-top-left-radius: 50px;
         box-shadow: 4px 5px 30px rgba(black,.20);
       }
       
       .card-body {
         padding: 10px;
         box-shadow: 4px 5px 30px rgba(black,.20);
-        border-radius: 0 0 50px 0;
         
         .proj-desc {
-          color: #555;
+          color: #666;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 25px;
         }
         .card-title {
-          color: $color1;
+          color: #333;
           text-transform: capitalize;
+          font-weight: 600;
         }
         .extra-line {
           height: 20px;
