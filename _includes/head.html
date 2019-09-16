@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   {% seo %}
+  {% include share-meta.html %}
 
   <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png">
 
@@ -16,8 +17,8 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
 
-  {% feed_meta %}
-
-  {%- include google-analytics.html -%}
+  {%- if site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}  
 
 </head>

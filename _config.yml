@@ -4,11 +4,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   It is a non-profit organisation and is incorporated on the 9th day of November, 2012 pursuant to sub-section (1) of section 5 of the Companies Act, 2006. 
   Its registered address is at Shivabhakta Marg, 304, Lazimpat, Kathmandu Nepal. NIC Research and Development facility is located at Kirtipur, Kathmandu in the premises of Tribhuwan University.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nicnepal.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 google_analytics: UA-133657720-2
 
-include: ['_projects']
+thumbnail_path: "logo.png"
+facebook_url: https://www.facebook.com/syfnepal
 
 # Build settings
 markdown: kramdown
