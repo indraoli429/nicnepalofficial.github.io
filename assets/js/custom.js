@@ -4,6 +4,16 @@ $(function(){
   // Activate wow.js
   new WOW().init();
 
+  // var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 2) + 1;
+
+  // // Count Down
+  // var flipdown = new FlipDown(twoDaysFromNow, { theme: 'light' })
+  //   .start()
+  //   .ifEnded(() => {
+  //     console.log('The countdown has ended!');
+  //   });
+
+
   var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
   $('#nurturing-projects').animateNumber(
     {
