@@ -14,7 +14,7 @@ page_name: projects
       </div>
     </div>
     <div class="row">
-      {% for project in site.data.projects %}
+      {% for project in site.data.pilot_projects %}
       <div class="col-sm-6 col-lg-3 mb-sm-4">
         <div class="single-project-box">
           <div class="card">
@@ -56,112 +56,12 @@ page_name: projects
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Two engineers already developed prototype for improving the efficiency of existing solar thermal collector (STC) 
-              technology using selective coating of Nano-particles for water heating applications.</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>A team of two researchers and farmers are building prawn hatchery in Chitwan and are going to do research on how to 
-              grow prawns. For that they are importing prawn larvae from Thailand.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">3</th>
-            <td>With a team from Village Tech Solution based in the US, our team is building computer system with projector called 
-              E-learning box. Interactive educational contents from grade 1 to 12 has been installed in the box. The system runs on 
-              12V and is suitable for remote schools where there is no electricity</td>
-          </tr>
-          
-          <tr>
-            <th scope="row">4</th>
-            <td>Three people already developed and launched an e-commerce platform Everest Kart (https://everestkart.com). They are now
-            doing marketing for providing services.</td>
-          </tr>
-          
-          <tr>
-            <th scope="row">5</th>
-            <td>A team of four software engineers are developing Electronic Medical Recording system for the rural health posts and for 
-              telemedicine program. The software is almost ready now.</td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>Two engineers are developing and testing web-based and mobile apps for the rural community schools to provide access to
-            educational materials and to help local government manage school system.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">7</th>
-            <td>Three people are developing web-based application for promoting village tourism in the rural areas of Nepal
-            https://nepalitreekinghomes.com. It is under development and will be launched in September.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">8</th>
-            <td>Four engineers are converting an old van into an electric van in order to show the government that the Nepal can save
-            money by converting the old vehicles to electric vehicles.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">9</th>
-            <td>Two engineers are developing electronic system to chase monkey and wild animals away to help farmers protect their 
-              crops is being built and tested. The prototype ready for testing.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">10</th>
-            <td>One food technician is developing different types of soft drinks from ginger and testing them. It is progressing quite well. 
-              The plan is to sell the ginger drinks in the market in the near future.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">11</th>
-            <td>Four engineers are developing the prototype of Selroti (Nepali Deep Fried circular Bread) making machine. Now they are 
-              developing the commercial product and it is in the last stage of development.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">12</th>
-            <td>Three students and researchers of RECAST, Tribhuvan University are developing functional food, organic body 
-              lotion and organic hair coloring dye. They are now working on it.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">13</th>
-            <td>A team of two engineers are developing reverse vending machine that crushes the plastic bottles and metal 
-              cans for recycling. The product is almost ready to be commercialized now.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">14</th>
-            <td>One engineer is working on to develop simple and cheaper cloth washing machines for low income household living in the
-            urban areas.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">15</th>
-            <td>A team of engineers are working to develop smart beehives and bee venom extraction system in collaboration with students 
-              from the University of Amsterdam Applied Science and Technology. </td>
-          </tr>
-
-          <tr>
-            <th scope="row">16</th>
-            <td>Two engineers are working on to develop simple and cheaper cloth washing machines for low income households 
-              living in urban areas. The product is being designed now.</td>
-          </tr>
-          
-          <tr>
-            <th scope="row">17</th>
-            <td>A team of doctors and electronic engineers are working to develop non-invasive glucometer to measure glucose level. 
-              They are also trying to develop simple ECG machine.</td>
-          </tr>
-
-          <tr>
-            <th scope="row">18</th>
-            <td>One mechanics in Janakpur has made a machine that makes incessant sticks or Sinke Dhup in Nepali. The final 
-              design of the product is ready and they are not producing the product.</td>
-          </tr>
+          {% for project in site.data.projects_list %}
+            <tr>
+              <th scope="row">{{ forloop.index }}</th>
+              <td>{{ project }}</td>
+            </tr>
+          {% endfor %}
         </tbody>
       </table>
     </div>

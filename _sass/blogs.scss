@@ -141,16 +141,11 @@ img.full-width {
     font-family: "Oswald", sans-serif;
   }
 }
+
 .blog-post-page {
-  margin-top: 8em;
-
-  .post-info {
-    color: #777;
-
-    .fas {
-      color: #333;
-    }
-  }  
+  .post-container {
+    padding: 3em 5em;
+  }
 }
 
 .non-featured-post {
